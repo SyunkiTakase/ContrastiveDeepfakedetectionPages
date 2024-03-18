@@ -41,7 +41,7 @@
 
 
     <section>
-        <h2>Abstract</h2>
+        <!-- <h2>Abstract</h2>
 
         深層学習により画像上の顔の交換や属性・表情を変更するDeepfakeが問題となり，Deepfakeにより生成され<br>
         た画像を検出する研究が活発に行われている．近年，画像認識分野においてVision Transformerベースの手<br>
@@ -50,8 +50,31 @@
         を導入したWavelet Vision Transformerによる高精度なDeepfake検出法を提案する．<br>
         Wavelet Vision Transformerは，Deepfake 検出において画像中の重要な高周波成分を捉えることができる<br>
         モデルである．表現学習の一種である自己教師あり学習と組み合わせることで，Deepfake画像における加工の<br>
-        痕跡を正確に検知することが可能となり，高精度な検出が期待できる．
-
+        痕跡を正確に検知することが可能となり，高精度な検出が期待できる． -->
+        <div class="container is-max-desktop">
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                  <p>
+                    Face personalization aims to insert specific faces, taken from images, into pretrained text-to-image diffusion models. 
+                    However, it is still challenging for previous methods to preserve both the identity similarity and editability due to overfitting to training samples. 
+                    In this paper, we propose Face2Diffusion (F2D) for high-editability face personalization. 
+                    The core idea behind F2D is that removing identity-irrelevant information from the training pipeline prevents the overfitting problem and improves editability of encoded faces. 
+                    F2D consists of the following three novel components: 1) Multi-scale identity encoder provides well-disentangled identity features while keeping the benefits of multi-scale information, which improves the diversity of camera poses. 
+                    2) Expression guidance disentangles face expressions from identities and improves the controllability of face expressions. 
+                    3) Classguided denoising regularization encourages models to learn how faces should be denoised, which boosts the textalignment of backgrounds. 
+                    Extensive experiments on the FaceForensics++ dataset and diverse prompts demonstrate our method greatly improves the trade-off between the identity- and text-fidelity compared to previous state-of-theart methods.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--/ Abstract. -->
+        
+            <!-- Paper video. -->
+          
+          </div>
     </section>
 
     <section>
