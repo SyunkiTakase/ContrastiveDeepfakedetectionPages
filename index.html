@@ -28,12 +28,19 @@
             section {
                 margin-left: 1cm; /* 左端から6cmのスペースを空ける */
             }
+
+            div  {
+                margin : 30px ;
+                padding : 20px ;
+                /* border : 5px solid maroon ;
+                background-color : lightgreen ; */
+            }
         </style>
     </head>
 
     <body>
         <header>
-            <h1>自己教師あり学習を導入したWavelet Vision Transformerによる<br>Deepfake検出の高精度化</h1>
+            <h1>自己教師あり学習を導入した<br>Wavelet Vision Transformerによる<br>Deepfake検出の高精度化</h1>
             
             <p><font size="3">高瀬 俊希，山内 悠嗣(中部大学) <br>
 
@@ -46,7 +53,7 @@
 
         </header>
 
-        <section>
+        <div>
             <h2>Abstract</h2>
 
             深層学習により画像上の顔の交換や属性・表情を変更するDeepfakeが問題となり，Deepfakeにより生成され<br>
@@ -60,9 +67,9 @@
 
             <img src="pic/contrastive_detection.png" width="70%">
 
-        </section>
+        </div>
 
-        <section>
+        <div>
             <h2>提案手法におけるペアの扱い方</h2>
 
             画像の変動と偽造痕跡の違いを明確に区別するモデルを学習するために自己教師あり学習を導入する． <br>
@@ -71,9 +78,9 @@
 
             <img src="pic/pair.png" width="60%">
 
-        </section>
+        </div>
 
-        <section>
+        <div>
             <h2>4つのデータセットに対する各手法のAUC</h2>
 
             Wave-ViTに自己教師あり学習を導入した提案手法はEfficietnNet-B4よりも平均AUCが1.70[%]向上した． <br>
@@ -82,9 +89,9 @@
 
             <img src="pic/result.png" width="60%">
 
-        </section>
+        </div>
 
-        <section>
+        <div>
             <h2>Bibtex</h2>
 
             <code>
@@ -96,7 +103,7 @@
             } <br>
             </code>
 
-        </section>
+        </div>
 
     </body>
 
